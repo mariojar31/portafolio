@@ -1,0 +1,292 @@
+{
+    "Personal_info":{
+        "name":"Mario Acendra",
+        "about":{
+          "es":"Desarrollador Web Full Stack y Analista de Datos con experiencia en soluciones digitales de alta calidad, competencias en JavaScript, Java, Python y tecnologías en la nube.",
+          "en":"Full Stack Web Developer and Data Analyst with experience in delivering high-quality digital solutions. Proficient in JavaScript, Java, Python, and cloud technologies.",
+          "fr":"Développeur Web Full Stack et Analyste de Données avec une expérience dans la fourniture de solutions digitales de haute qualité. Compétent en JavaScript, Java, Python et technologies cloud."
+        }
+      },
+      "Skills":[
+        { "text": "JavaScript", "size": 65 },
+        { "text": "HTML", "size": 60 },
+        { "text": "CSS", "size": 50 },
+        { "text": "React", "size": 60 },
+        { "text": "Node.js", "size": 40 },
+        { "text": "Java", "size": 70 },
+        { "text": "Angular", "size": 40 },
+        { "text": "Flask", "size": 50 },
+        { "text": "Python", "size": 55 },
+        { "text": "Tailwind", "size": 35 },
+        { "text": "TypeScript", "size": 50 },
+        { "text": "Pandas", "size": 40 },
+        { "text": "SciKitLearn", "size": 45 },
+        { "text": "SQL", "size": 55 },
+        { "text": "NoSQL", "size": 50 }
+      ],
+    
+      "Projects":[
+        {
+          "_id": 0,
+          "title": {
+            "es":"Aplicación 'Mi Tiempo con Dios'",
+            "en":"My Time with God App",
+            "fr":"Application Mon Temps avec Dieu"
+          },
+          "shortDescription": {
+            "es":"Aplicación integral desarrollada en React Native, disponible para Web, Android e iOS, que permite a los usuarios acceder a múltiples versiones de la Biblia y reflexionar sobre su contenido.",
+            "en":"A React Native app providing access to various Bible versions, daily reflections, and real-time chat, enhancing user engagement. Available on Web, Android, and iOS.",
+            "fr":"Une application React Native offrant l'accès à plusieurs versions de la Bible, des réflexions quotidiennes et un chat en temps réel, renforçant l'engagement des utilisateurs. Disponible sur Web, Android et iOS."
+          },
+          "description": {
+            "es":"Aplicación integral desarrollada en React Native, disponible para Web, Android e iOS, que permite a los usuarios acceder a múltiples versiones de la Biblia y reflexionar sobre su contenido.\n\nCaracterísticas destacadas:\n-API Personalizada: Se implementó una API en Express conectada a una base de datos SQL, facilitando un acceso rápido y eficiente a diversas versiones de la Biblia.\n-Almacenamiento Local: Se utilizó el módulo AsyncStorage para almacenar versículos, capítulos y reflexiones, así como datos de preferencia del usuario, garantizando una experiencia personalizada y accesible incluso sin conexión a internet.\n-Funcionalidades Interactivas: Se desarrolló un sistema de Palabra Diaria, que incluye reflexiones diarias y un espacio para reflexiones personales, promoviendo la retención y el compromiso del usuario con el contenido.\n-Integración de Comunidad: Se implementaron funcionalidades de comunidad a través de Firebase, habilitando un chat en tiempo real que fomenta la interacción y el apoyo entre los usuarios, creando un entorno de aprendizaje y crecimiento conjunto.\n\nEste proyecto no solo mejora el acceso a la Biblia, sino que también crea un espacio donde los usuarios pueden reflexionar, compartir y conectarse con otros.",
+            "en":"This project is an all-in-one application developed in React Native, available for Web, Android, and iOS, allowing users to access multiple versions of the Bible and reflect on its content.\n\nKey Features:\n-Custom API: A Express API was implemented, connected to an SQL database, enabling fast and efficient access to various Bible versions.\n-Local Storage: The AsyncStorage module was utilized to store verses, chapters, reflections, and user preference data, ensuring a personalized experience accessible even offline.\n-Interactive Features: A Daily Word system was developed, including daily reflections and a space for personal reflections, promoting user retention and engagement with the content.\n-Community Integration: Community features were implemented through Firebase, enabling real-time chat that fosters interaction and support among users, creating a collaborative learning and growth environment.\n\nThis project not only enhances access to the Bible but also creates a space where users can reflect, share, and connect with others.",
+            "fr":"Ce projet est une application tout-en-un développée en React Native, disponible pour Web, Android et iOS, permettant aux utilisateurs d'accéder à plusieurs versions de la Bible et de réfléchir à son contenu.\n\nCaractéristiques principales :\n-API Personnalisée : Une API en Express a été mise en place, connectée à une base de données SQL, permettant un accès rapide et efficace à diverses versions de la Bible.\n-Stockage Local : Le module AsyncStorage a été utilisé pour stocker des versets, des chapitres, des réflexions et des données de préférence utilisateur, garantissant une expérience personnalisée accessible même hors ligne.\n-Fonctionnalités Interactives : Un système de Parole du Jour a été développé, incluant des réflexions quotidiennes et un espace pour des réflexions personnelles, favorisant la rétention et l'engagement des utilisateurs avec le contenu.\n-Intégration Communautaire : Des fonctionnalités communautaires ont été mises en œuvre via Firebase, permettant un chat en temps réel qui favorise l'interaction et le soutien entre les utilisateurs, créant un environnement d'apprentissage et de croissance collaborative.\n\nCe projet améliore non seulement l'accès à la Bible, mais crée également un espace où les utilisateurs peuvent réfléchir, partager et se connecter avec les autres."
+          },
+          "technologies": ["ReactNative","TypeScript","FireBase"],
+          "category": "CrossPlatform",
+          "img":"../img/projects/portafolio.jpg",
+          "date": "2024",
+          "repoUrl":"#",
+          "demoUrl":"#"
+        },
+        {
+            "_id": 1,
+            "title": {
+              "es": "Landing Page 'Mi Tiempo Con Dios'",
+              "en": "Landing Page 'My Time with God'",
+              "fr": "Page d'atterrissage 'Mon Temps avec Dieu'"
+            },
+            "shortDescription": {
+              "es": "Landing page totalmente responsive creada con React y Next.js para presentar la aplicación 'Mi Tiempo Con Dios', destacando sus características, beneficios y haciendo un llamado a la descarga.",
+              "en": "Fully responsive landing page created with React and Next.js to showcase the 'My Time with God' application, highlighting its features, benefits, and encouraging downloads.",
+              "fr": "Page d'atterrissage entièrement responsive créée avec React et Next.js pour présenter l'application 'Mon Temps avec Dieu', mettant en avant ses fonctionnalités, ses avantages et incitant au téléchargement."
+            },
+            "description": {
+              "es": "La landing page de 'Mi Tiempo Con Dios' ha sido desarrollada para ofrecer una experiencia visualmente atractiva y funcional. Con tecnologías como React y Next.js, junto con estilos de Tailwind y Joy UI, la página garantiza una interfaz moderna y adaptable. Se centra en mostrar las características esenciales de la aplicación, como las reflexiones diarias y versículos inspiradores, y resalta los beneficios de su uso. Además, la página está diseñada para invitar a los usuarios a descargar la aplicación y explorar su contenido espiritual enriquecedor.",
+              "en": "The landing page for 'My Time with God' has been developed to provide a visually appealing and functional experience. Utilizing technologies such as React and Next.js, along with Tailwind and Joy UI styles, the page ensures a modern and responsive interface. It focuses on showcasing the application's essential features, such as daily reflections and inspiring verses, while highlighting the benefits of its use. Furthermore, the page is designed to invite users to download the app and explore its enriching spiritual content.",
+              "fr": "La page d'atterrissage de 'Mon Temps avec Dieu' a été développée pour offrir une expérience visuellement attrayante et fonctionnelle. Utilisant des technologies telles que React et Next.js, ainsi que des styles de Tailwind et Joy UI, la page garantit une interface moderne et adaptable. Elle se concentre sur la présentation des fonctionnalités essentielles de l'application, telles que les réflexions quotidiennes et les versets inspirants, tout en mettant en avant les avantages de son utilisation. De plus, la page est conçue pour inviter les utilisateurs à télécharger l'application et à explorer son contenu spirituel enrichissant."
+            },
+            "technologies": ["React", "Next.js", "Tailwind", "Joy UI"],
+            "category": "Web",
+            "img": "../img/projects/portafolio.jpg",
+            "date": "2024",
+            "repoUrl":"#",
+            "demoUrl":"#"
+          },
+          {
+            "_id": 2,
+            "title": {
+              "es": "API de Consulta para Aplicativo 'Mi Tiempo con Dios'",
+              "en": "Query API for 'My Time with God' Application",
+              "fr": "API de Consultation pour l'Application 'Mon Temps avec Dieu'"
+            },
+            "shortDescription": {
+              "es": "API REST desarrollada en Node.js con Express que permite realizar consultas eficientes a una base de datos PostgreSQL, sirviendo información relevante para el aplicativo 'Mi Tiempo con Dios'.",
+              "en": "REST API developed in Node.js with Express that enables efficient querying of a PostgreSQL database, serving relevant information for the 'My Time with God' application.",
+              "fr": "API REST développée en Node.js avec Express qui permet des requêtes efficaces sur une base de données PostgreSQL, fournissant des informations pertinentes pour l'application 'Mon Temps avec Dieu'."
+            },
+            "description": {
+              "es": "La API de Consulta para el Aplicativo 'Mi Tiempo con Dios' ha sido diseñada para optimizar la interacción entre la aplicación y su base de datos PostgreSQL. Utilizando Node.js y Express, esta API permite realizar consultas de manera rápida y eficiente, garantizando que los usuarios tengan acceso instantáneo a versículos, reflexiones y datos de usuario.\n\nLas rutas están cuidadosamente estructuradas para manejar diferentes tipos de solicitudes, asegurando que la información se entregue de forma clara y organizada. Este enfoque no solo mejora el rendimiento general de la aplicación, sino que también enriquece la experiencia del usuario, permitiendo un acceso fluido y directo al contenido espiritual que buscan.",
+              "en": "The Query API for the 'My Time with God' Application has been designed to optimize interaction between the application and its PostgreSQL database. Using Node.js and Express, this API enables rapid and efficient querying, ensuring that users have instant access to verses, reflections, and user data.\n\nThe routes are carefully structured to handle various types of requests, ensuring that information is delivered clearly and organized. This approach not only enhances the overall performance of the application but also enriches the user experience, allowing smooth and direct access to the spiritual content they seek.",
+              "fr": "L'API de Consultation pour l'Application 'Mon Temps avec Dieu' a été conçue pour optimiser l'interaction entre l'application et sa base de données PostgreSQL. Utilisant Node.js et Express, cette API permet des requêtes rapides et efficaces, garantissant que les utilisateurs aient un accès instantané aux versets, réflexions et données utilisateur.\n\nLes routes sont soigneusement structurées pour gérer différents types de demandes, garantissant que les informations sont livrées de manière claire et organisée. Cette approche améliore non seulement les performances générales de l'application, mais enrichit également l'expérience utilisateur, permettant un accès fluide et direct au contenu spirituel qu'ils recherchent."
+            },
+            "technologies": ["Node.js", "Express", "PostgreSQL","Pug js"],
+            "category": "Backend",
+            "img": "../img/projects/portafolio.jpg",
+            "date": "2024",
+            "repoUrl":"#",
+            "demoUrl":"#"
+          },
+          {
+            "_id": 3,
+            "title": {
+              "es": "Portal Deportivo 'OmniSports'",
+              "en": "Sports Portal 'OmniSports'",
+              "fr": "Portail Sportif 'OmniSports'"
+            },
+            "shortDescription": {
+              "es": "Portal deportivo interactivo desarrollado en React, CSS y Bootstrap 5, que presenta noticias y resultados de eventos deportivos locales e internacionales, con conexión al backend a través de Express.",
+              "en": "Interactive sports portal developed in React, CSS, and Bootstrap 5, presenting news and results of local and international sporting events, with backend connectivity through Express.",
+              "fr": "Portail sportif interactif développé en React, CSS et Bootstrap 5, présentant des actualités et des résultats d'événements sportifs locaux et internationaux, avec connectivité backend via Express."
+            },
+            "description": {
+              "es": "El Portal Deportivo 'OmniSports' es una plataforma dynamique conçue pour offrir aux utilisateurs une expérience complète dans le monde du sport. La page web, développée avec React, CSS et Bootstrap 5, permet la visualisation de nouvelles et de résultats d'événements sportifs variés, tant locaux qu'internationaux.\n\nL'architecture du portail est soutenue par Express, qui gère la connexion avec des APIs et des bases de données, garantissant que les informations sont mises à jour en temps réel. Cette intégration permet aux utilisateurs d'accéder à un contenu frais et pertinent, améliorant leur expérience en les tenant informés de leurs sports et équipes préférés.",
+              "en": "The 'OmniSports' Sports Portal is a dynamic platform designed to provide users with a comprehensive experience in the sports world. The website, developed with React, CSS, and Bootstrap 5, allows users to view news and results from various sporting events, both local and international.\n\nThe portal's architecture is backed by Express, which manages the connection to APIs and databases, ensuring that information is updated in real time. This integration allows users to access fresh and relevant content, enhancing their experience by keeping them informed about their favorite sports and teams.",
+              "fr": "Le Portail Sportif 'OmniSports' est une plateforme dynamique conçue pour offrir aux utilisateurs une expérience complète dans le monde du sport. La page web, développée avec React, CSS et Bootstrap 5, permet la visualisation de nouvelles et de résultats d'événements sportifs variés, tant locaux qu'internationaux.\n\nL'architecture du portail est soutenue par Express, qui gère la connexion avec des APIs et des bases de données, garantissant que les informations sont mises à jour en temps réel. Cette intégration permet aux utilisateurs d'accéder à un contenu frais et pertinent, améliorant leur expérience en les tenant informés de leurs sports et équipes préférés."
+            },
+            "technologies": ["React", "Express", "Bootstrap"],
+            "category": "Web",
+            "img": "../img/projects/portafolio.jpg",
+            "date": "2023",
+            "repoUrl":"#",
+            "demoUrl":"#"
+          },
+          {
+            "_id": 4,
+            "title": {
+              "es": "ML WebApp - Calculadora Precio Inmuebles BOG",
+              "en": "ML WebApp - Property Price Calculator BOG",
+              "fr": "ML WebApp - Calculatrice de Prix des Biens Immobiliers BOG"
+            },
+            "shortDescription": {
+              "es": "Aplicación web que utiliza machine learning para predecir los precios de inmuebles en Bogotá, basada en datos del gobierno colombiano.",
+              "en": "Web application using machine learning to predict property prices in Bogotá, based on Colombian government data.",
+              "fr": "Application web utilisant l'apprentissage automatique pour prédire les prix des biens immobiliers à Bogotá, basée sur des données du gouvernement colombien."
+            },
+            "description": {
+              "es": "Este proyecto se centra en la aplicación de análisis de datos y machine learning para la predicción de precios de inmuebles en Bogotá.\n\n**Características principales:**\n- **Modelo de Regresión Lineal:** Utiliza datos de OpenData y del DANE para entrenar un modelo que predice el valor de los inmuebles según la zona, número de habitaciones, baños y área en metros cuadrados.\n- **Framework Flask:** La aplicación web está desarrollada con Flask en Python, proporcionando un entorno robusto para el backend.\n- **Bibliotecas de Machine Learning:** Se emplearon Pandas, SciKit-learn y NumPy para la manipulación de datos y entrenamiento del modelo.\n- **Interfaz Atractiva:** Se creó una interfaz intuitiva utilizando HTML y BootStrap 5, asegurando una experiencia de usuario amigable.\n\nEste proyecto no solo mejora el acceso a información relevante sobre precios de inmuebles, sino que también brinda una herramienta útil para compradores y vendedores en el mercado inmobiliario.",
+              "en": "This project focuses on applying data analysis and machine learning to predict property prices in Bogotá.\n\n**Key Features:**\n- **Linear Regression Model:** Utilizes OpenData and DANE data to train a model that predicts property values based on zone, number of rooms, bathrooms, and area in square meters.\n- **Flask Framework:** The web application is developed using Flask in Python, providing a robust environment for the backend.\n- **Machine Learning Libraries:** Pandas, SciKit-learn, and NumPy are employed for data manipulation and model training.\n- **Attractive Interface:** An intuitive interface is created using HTML and BootStrap 5, ensuring a user-friendly experience.\n\nThis project not only enhances access to relevant property price information but also provides a useful tool for buyers and sellers in the real estate market.",
+              "fr": "Ce projet se concentre sur l'application de l'analyse de données et de l'apprentissage automatique pour prédire les prix des biens immobiliers à Bogotá.\n\n**Caractéristiques clés :**\n- **Modèle de Régression Linéaire :** Utilise des données d'OpenData et du DANE pour entraîner un modèle qui prédit les valeurs des biens immobiliers en fonction de la zone, du nombre de chambres, de salles de bains et de la superficie en mètres carrés.\n- **Framework Flask :** L'application web est développée avec Flask en Python, offrant un environnement robuste pour le backend.\n- **Bibliothèques d'Apprentissage Automatique :** Pandas, SciKit-learn et NumPy sont utilisés pour la manipulation des données et l'entraînement du modèle.\n- **Interface Attrayante :** Une interface intuitive est créée avec HTML et BootStrap 5, garantissant une expérience utilisateur conviviale.\n\nCe projet améliore non seulement l'accès à des informations pertinentes sur les prix des biens immobiliers, mais fournit également un outil utile pour les acheteurs et les vendeurs sur le marché immobilier."
+            },
+            "technologies": ["Python", "Flask", "SciKit-learn", "NumPy", "HTML", "CSS", "BootStrap5"],
+            "category": "WebApp",
+            "img": "../img/projects/CalculadoraInmuebles.jpg",
+            "date": "2024",
+            "repoUrl":"#",
+            "demoUrl":"#"
+          },
+          {
+            "_id": 5,
+            "title": {
+              "es": "Análisis de Datos - E-commerce",
+              "en": "Data Analysis - E-commerce",
+              "fr": "Analyse des Données - E-commerce"
+            },
+            "shortDescription": {
+              "es": "Proyecto de análisis de datos que investiga el comportamiento de los clientes de una tienda E-commerce, ayudando a optimizar decisiones de inversión.",
+              "en": "Data analysis project investigating customer behavior in an e-commerce store, aiding investment decision-making.",
+              "fr": "Projet d'analyse des données étudiant le comportement des clients d'une boutique E-commerce, aidant à la prise de décisions d'investissement."
+            },
+            "description": {
+              "es": "Este proyecto utiliza técnicas de análisis de datos para estudiar el comportamiento de los clientes en una tienda de e-commerce.\n\n**Características principales:**\n- **Objetivo del Estudio:** Comprender las preferencias de los clientes y ofrecer recomendaciones sobre en qué plataforma invertir capital para mejoras.\n- **Bibliotecas Utilizadas:** Se emplearon Pandas para la manipulación de datos, SciKit-learn para el análisis predictivo y NumPy para operaciones numéricas.\n- **Resultados Esperados:** Generar insights que faciliten la toma de decisiones informadas para optimizar la experiencia del cliente y maximizar el retorno de inversión.\n\nEste proyecto no solo permite entender mejor el comportamiento del cliente, sino que también proporciona una base sólida para estrategias de inversión más efectivas.",
+              "en": "This project utilizes data analysis techniques to study customer behavior in an e-commerce store.\n\n**Key Features:**\n- **Study Objective:** Understand customer preferences and provide recommendations on where to invest capital for improvements.\n- **Libraries Used:** Pandas for data manipulation, SciKit-learn for predictive analysis, and NumPy for numerical operations.\n- **Expected Outcomes:** Generate insights that facilitate informed decision-making to optimize customer experience and maximize return on investment.\n\nThis project not only allows for a better understanding of customer behavior but also provides a solid foundation for more effective investment strategies.",
+              "fr": "Ce projet utilise des techniques d'analyse des données pour étudier le comportement des clients dans une boutique E-commerce.\n\n**Caractéristiques principales :**\n- **Objectif de l'Étude :** Comprendre les préférences des clients et fournir des recommandations sur où investir du capital pour des améliorations.\n- **Bibliothèques Utilisées :** Pandas pour la manipulation des données, SciKit-learn pour l'analyse prédictive et NumPy pour les opérations numériques.\n- **Résultats Attendus :** Générer des insights qui facilitent la prise de décisions éclairées pour optimiser l'expérience client et maximiser le retour sur investissement.\n\nCe projet permet non seulement de mieux comprendre le comportement des clients, mais fournit également une base solide pour des stratégies d'investissement plus efficaces."
+            },
+            "technologies": ["Python", "SciKit-learn", "NumPy"],
+            "category": "DataAnalysis",
+            "img": "../img/projects/portafolio.jpg",
+            "date": "2024",
+            "repoUrl":"#",
+            "demoUrl":"#"
+          },
+          {
+            "_id": 6,
+            "title": {
+              "es": "Juego del Ahorcado",
+              "en": "Hangman Game",
+              "fr": "Jeu du Pendu"
+            },
+            "shortDescription": {
+              "es": "Versión del clásico juego del ahorcado, desarrollada como parte de un challenge de programación.",
+              "en": "Version of the classic hangman game, developed as part of a programming challenge.",
+              "fr": "Version du jeu classique du pendu, développé dans le cadre d'un challenge de programmation."
+            },
+            "description": {
+              "es": "Este proyecto consiste en una versión del popular juego del ahorcado, diseñado durante el segundo challenge del curso de programación de Oracle ONE y Alura Latam.\n\n**Características principales:**\n- **Interfaz:** Desarrollada con HTML y CSS, ofreciendo un diseño amigable y accesible.\n- **Lógica del Juego:** Implementada en JavaScript, permitiendo a los jugadores adivinar letras para descubrir una palabra oculta.\n- **Interactividad:** El juego responde a las acciones del usuario, proporcionando una experiencia de juego dinámica y entretenida.\n\nEste proyecto no solo pone en práctica habilidades de programación, sino que también refuerza conceptos de lógica y diseño web.",
+              "en": "This project is a version of the popular hangman game, designed during the second challenge of the Oracle ONE and Alura Latam programming course.\n\n**Key Features:**\n- **Interface:** Developed with HTML and CSS, providing a user-friendly and accessible design.\n- **Game Logic:** Implemented in JavaScript, allowing players to guess letters to reveal a hidden word.\n- **Interactivity:** The game responds to user actions, providing a dynamic and entertaining gaming experience.\n\nThis project not only practices programming skills but also reinforces concepts of logic and web design.",
+              "fr": "Ce projet est une version du populaire jeu du pendu, conçu lors du deuxième challenge du cours de programmation d'Oracle ONE et d'Alura Latam.\n\n**Caractéristiques principales :**\n- **Interface :** Développée avec HTML et CSS, offrant un design convivial et accessible.\n- **Logique du Jeu :** Implémentée en JavaScript, permettant aux joueurs de deviner des lettres pour révéler un mot caché.\n- **Interactivité :** Le jeu réagit aux actions de l'utilisateur, offrant une expérience de jeu dynamique et divertissante.\n\nCe projet permet non seulement de mettre en pratique des compétences en programmation, mais renforce également des concepts de logique et de design web."
+            },
+            "technologies": ["HTML", "CSS", "JavaScript"],
+            "category": "WebDevelopment",
+            "img": "../img/projects/ahorcado.jpg",
+            "date": "2022",
+            "repoUrl":"#",
+            "demoUrl":"#"
+          },
+          {
+            "_id": 7,
+            "title": {
+              "es": "Encriptador de Textos",
+              "en": "Text Encrypter",
+              "fr": "Crypteur de Textes"
+            },
+            "shortDescription": {
+              "es": "Herramienta para encriptar y desencriptar textos, desarrollada como parte de un challenge de programación.",
+              "en": "Tool for encrypting and decrypting texts, developed as part of a programming challenge.",
+              "fr": "Outil pour crypter et décrypter des textes, développé dans le cadre d'un challenge de programmation."
+            },
+            "description": {
+              "es": "Este proyecto consiste en una herramienta diseñada para encriptar y desencriptar textos, creada durante el primer challenge del curso de programación de Oracle ONE y Alura Latam.\n\n**Características principales:**\n- **Interfaz:** Desarrollada con HTML y CSS, ofreciendo un diseño intuitivo y accesible para los usuarios.\n- **Lógica:** Implementada en JavaScript, permitiendo a los usuarios encriptar y desencriptar textos de forma rápida y sencilla.\n- **Interactividad:** La aplicación responde a las entradas del usuario, brindando una experiencia dinámica y útil para la protección de información.\n\nEste proyecto no solo refuerza conceptos de programación, sino que también permite explorar el manejo de datos y la lógica detrás de la encriptación.",
+              "en": "This project is a tool designed to encrypt and decrypt texts, created during the first challenge of the Oracle ONE and Alura Latam programming course.\n\n**Key Features:**\n- **Interface:** Developed with HTML and CSS, providing an intuitive and user-friendly design.\n- **Logic:** Implemented in JavaScript, allowing users to quickly and easily encrypt and decrypt texts.\n- **Interactivity:** The application responds to user input, providing a dynamic and useful experience for information protection.\n\nThis project not only reinforces programming concepts but also allows exploration of data handling and the logic behind encryption.",
+              "fr": "Ce projet est un outil conçu pour crypter et décrypter des textes, créé lors du premier challenge du cours de programmation d'Oracle ONE et d'Alura Latam.\n\n**Caractéristiques principales :**\n- **Interface :** Développée avec HTML et CSS, offrant un design intuitif et convivial.\n- **Logique :** Implémentée en JavaScript, permettant aux utilisateurs de crypter et décrypter des textes rapidement et facilement.\n- **Interactivité :** L'application réagit aux entrées des utilisateurs, offrant une expérience dynamique et utile pour la protection des informations.\n\nCe projet renforce non seulement les concepts de programmation, mais permet également d'explorer la gestion des données et la logique derrière le cryptage."
+            },
+            "technologies": ["HTML", "CSS", "JavaScript"],
+            "category": "WebDevelopment",
+            "img": "../img/projects/encriptador.png",
+            "date": "2022",
+            "repoUrl":"#",
+            "demoUrl":"#"
+          },
+          {
+            "_id": 0,
+            "title": {
+              "es": "Portafolio",
+              "en": "Portfolio",
+              "fr": "Portefeuille"
+            },
+            "shortDescription": {
+              "es": "Portafolio personal creado para mostrar proyectos y habilidades de programación.",
+              "en": "Personal portfolio created to showcase projects and programming skills.",
+              "fr": "Portefeuille personnel créé pour présenter des projets et des compétences en programmation."
+            },
+            "description": {
+              "es": "Este proyecto consiste en la creación de un portafolio personal, desarrollado durante el tercer challenge del curso de programación de Oracle ONE y Alura Latam.\n\n**Características principales:**\n- **Interfaz:** Desarrollada con HTML y CSS, ofreciendo un diseño atractivo y organizado para mostrar proyectos y habilidades.\n- **Interactividad:** La lógica fue implementada en JavaScript, permitiendo interacciones dinámicas con el contenido y mejorando la experiencia del usuario.\n- **Presentación:** Facilita a los usuarios navegar a través de diferentes secciones, visualizando información relevante sobre las habilidades y proyectos del desarrollador.\n\nEste proyecto no solo refuerza las habilidades técnicas, sino que también sirve como una herramienta de presentación efectiva para futuros empleadores.",
+              "en": "This project involves creating a personal portfolio, developed during the third challenge of the Oracle ONE and Alura Latam programming course.\n\n**Key Features:**\n- **Interface:** Developed with HTML and CSS, providing an attractive and organized design to showcase projects and skills.\n- **Interactivity:** Logic was implemented in JavaScript, allowing dynamic interactions with the content and enhancing the user experience.\n- **Presentation:** Enables users to navigate through different sections, viewing relevant information about the developer's skills and projects.\n\nThis project not only reinforces technical skills but also serves as an effective presentation tool for potential employers.",
+              "fr": "Ce projet consiste à créer un portefeuille personnel, développé lors du troisième challenge du cours de programmation d'Oracle ONE et d'Alura Latam.\n\n**Caractéristiques principales :**\n- **Interface :** Développée avec HTML et CSS, offrant un design attrayant et organisé pour présenter des projets et des compétences.\n- **Interactivité :** La logique a été implémentée en JavaScript, permettant des interactions dynamiques avec le contenu et améliorant l'expérience utilisateur.\n- **Présentation :** Permet aux utilisateurs de naviguer à travers différentes sections, visualisant des informations pertinentes sur les compétences et les projets du développeur.\n\nCe projet renforce non seulement les compétences techniques, mais sert également d'outil de présentation efficace pour les employeurs potentiels."
+            },
+            "technologies": ["HTML", "CSS", "JavaScript"],
+            "category": "WebDevelopment",
+            "img": "../img/projects/portafolio.jpg",
+            "date": "2022",
+            "repoUrl":"#",
+            "demoUrl":"#"
+          }
+
+
+
+      ],
+    
+      "Academic":[
+        {
+          "_id": 0,
+          "title": "AWS Cloud",
+          "institution": "AWS T&C",
+          "date": "2020",
+          "skills": ["skillId1", "skillId2"],
+          "img":"../img/formacion/aws.png"
+        },
+            {
+          "_id": 1,
+          "title": "Programación Web",
+          "institution": "Oracle ONE - Alura Latam",
+          "date": "2022",
+          "skills": ["skillId1", "skillId2"],
+          "img":"../img/formacion/alura.png"
+        },
+        {
+          "_id": 2,
+          "title": "Diplomado en Analítica de Datos",
+          "institution": "P Universidad Javeriana",
+          "date": "2023",
+          "skills": ["skillId1", "skillId2"],
+          "img":"../img/formacion/javeriana.png"
+        },
+        {
+          "_id": 3,
+          "title": "Desarrollador FullStack JAVA",
+          "institution": "Generation Col",
+          "date": "2024",
+          "skills": ["skillId1", "skillId2"],
+          "img":"../img/formacion/aws.png"
+        },
+        {
+          "_id": 4,
+          "title": "Técnico en Programación de Software",
+          "institution": "SENA",
+          "date": "2024",
+          "skills": ["skillId1", "skillId2"],
+          "img":"../img/formacion/sena.png"
+        }
+      ]
+  }

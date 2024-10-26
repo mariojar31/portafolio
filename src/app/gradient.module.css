@@ -1,0 +1,9 @@
+.backgroundGradient{
+    background: linear-gradient(to bottom,
+    transparent,
+    rgb(214, 219, 220));
+}
+
+.darkBg{
+    background-color: black;
+}
