@@ -1,3 +1,14 @@
+:::::::::::::::::::::::::::::::::::::: MARIO ACENDRA 'S PORTFOLIO ::::::::::::::::::::::::::::::::::::::
+
+Portafolio creado con Next JS y desplegado en vercel. 
+Utilizo Tailwind y Joy UI para la interfaz. 
+
+Pueden ver el portafolio desplegado en el siguiente enlace:
+https://mariojar-dev.vercel.app/
+
+
+Para desplegar el proyecto en local: 
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started

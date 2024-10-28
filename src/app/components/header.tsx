@@ -7,7 +7,8 @@ import {Language, Menu as MenuIcon, DarkMode, LightMode, Style } from '@mui/icon
 import {Dropdown, MenuButton, Menu, MenuItem, Box, Drawer, Button ,List, Divider, ListItem, ListItemButton, ModalClose, DialogTitle} from '@mui/joy';
 import Colors from '../colors';
 
-type LangFunction = (lang: string) => void;
+type Lang = 'es' | 'en' | 'fr';
+type LangFunction = (lang: Lang) => void;
 
 interface NavbarProps {
     lang: string; // Especifica el tipo de la prop lang como string
@@ -73,10 +74,10 @@ export function Navbar({ lang, selectLang, theme, changeTheme }:NavbarProps){
                 </div>
                 <div className={theme=='dark'?'menu_nav_dark':'menu_nav_light'}>
                     <ul className="hidden sm:flex flex-row justify-around flex-nowrap">
-                        <li className="p-4  hover:opacity-50"><a href="#">{lang=='en'?"About":lang=='fr'?"À propos de moi":"Acerca de mí"}</a></li>
-                        <li className="p-4  hover:opacity-50"><a href="#">{lang=='en'?"Projects":lang=='fr'?"Projects":"Proyectos"}</a></li>
-                        <li className="p-4  hover:opacity-50"><a href="#">{lang=='en'?"Clients":lang=='fr'?"Clients":"Clientes"}</a></li>
-                        <li className="p-4  hover:opacity-50"><a href="#">{lang=='en' ? 'Contact Me': (lang=='fr')?'Contactez mo':'Contactame'}</a></li>
+                        <li className="p-4  hover:opacity-50"><a href="#intro">{lang=='en'?"About":lang=='fr'?"À propos de moi":"Acerca de mí"}</a></li>
+                        <li className="p-4  hover:opacity-50"><a href="#projects">{lang=='en'?"Projects":lang=='fr'?"Projects":"Proyectos"}</a></li>
+                        <li className="p-4  hover:opacity-50"><a href="#academic">{lang=='en'?"Academic":lang=='fr'?"Académique":"Estudios"}</a></li>
+                        <li className="p-4  hover:opacity-50"><a href="#contactme">{lang=='en' ? 'Contact Me': (lang=='fr')?'Contactez mo':'Contactame'}</a></li>
                     </ul>
                 </div>
                 <div className="px-4 py-1 hidden sm:flex">

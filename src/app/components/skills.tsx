@@ -150,7 +150,7 @@ const Skills = ({ lang, theme }: { lang: string; theme: string }) => {
 
   return (
     <>
-      <Box height='auto' width='100%' padding='0vw 3vw' style={{ backgroundColor: theme === 'dark' ? '#101010' : '#efefef' }}>
+      <Box id="skills" height='auto' width='100%' padding='0vw 3vw' style={{ backgroundColor: theme === 'dark' ? '#101010' : '#efefef' }}>
         <div className='sticky top-0 left-0' style={{ backgroundColor: theme === 'dark' ? '#101010' : '#efefef' }}>
           <div className='flex flex-col justify-end items-center' style={{ height: 80 }}>
             <p id='textHead' className="text-lg" style={{ color: theme === 'dark' ? Colors.textDark : Colors.textLight }}>

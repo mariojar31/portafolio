@@ -56,24 +56,24 @@ const DribbbleShot = ({ title, description, img, linkRepo, linkDemo, linkProject
         >
         <div className="flex flex-row justify-between items-center">
           <h2>
-              <a href={linkProject} style={{textDecoration: 'none'}}>
+              <a target='_blank' href={linkProject} style={{textDecoration: 'none'}}>
                 <p style={{ color: 'brown', fontWeight: '700', textShadow: theme=='dark'?'1px 1px rgba(0,0,0,0.7)':'1px 1px rgba(255,255,255,0.7)', fontSize: '1.2rem' }}>
                   {title}
                 </p>
               </a>
             </h2>
             <div style={{ display: 'flex', alignItems: 'center' }}>
-              <a href={linkRepo} style={buttonStyle}>
+              <a target='_blank' href={linkRepo} style={buttonStyle}>
                 <span style={{color:theme=="dark"?Colors.textDark:Colors.textLight}}><GitHub/></span>
               </a>
-              <a href={linkDemo} style={buttonStyle}>
+              <a target='_blank' href={linkDemo} style={buttonStyle}>
                 <span style={{ color: theme=="dark"?Colors.textDark:Colors.textLight }}><LinkRounded/></span>
               </a>
             </div>
         </div>
             
           <p style={{ marginTop: '8px' }}>
-            <a href={linkProject} style={{ color: theme=='dark'?Colors.textDark:Colors.textLight, textDecoration: 'none', fontSize: '0.9rem' }}>
+            <a target='_blank' href={linkProject} style={{ color: theme=='dark'?Colors.textDark:Colors.textLight, textDecoration: 'none', fontSize: '0.9rem' }}>
               {description}
             </a>
           </p>

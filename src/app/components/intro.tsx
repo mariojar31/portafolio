@@ -35,7 +35,7 @@ const Intro = ({ lang, theme }: { lang: string; theme: string }) => {
                 alt="Efecto de brillo"
                 priority
             />
-            <Box height='auto' width='100%' padding='3vw' display='flex' position='relative' zIndex={0}>
+            <Box id="intro" height='auto' width='100%' padding='3vw' display='flex' position='relative' zIndex={0}>
                 <div id='introContainer' className='flex flex-col-reverse items-end md:flex-row md:items-center justify-end w-full' style={{ zIndex: 1 }}>
                     <div className="max-w-2xl">
                         <div className="text-right">
@@ -47,7 +47,7 @@ const Intro = ({ lang, theme }: { lang: string; theme: string }) => {
                                 {lang === 'es' ? 'Desarrollador Web Full Stack y Analista de Datos con experiencia en soluciones digitales de alta calidad, competencias en JavaScript, Java, Python y tecnologías en la nube.' : lang === 'en' ? 'Full Stack Web Developer and Data Analyst with experience in delivering high-quality digital solutions. Proficient in JavaScript, Java, Python, and cloud technologies.' : lang === 'fr' ? 'Développeur Web Full Stack et Analyste de Données avec une expérience dans la fourniture de solutions digitales de haute qualité. Compétent en JavaScript, Java, Python et technologies cloud.' : 'Full Stack Web Developer and Data Analyst with experience in delivering high-quality digital solutions. Proficient in JavaScript, Java, Python, and cloud technologies.'}
                             </p>
                             <div className="mt-10 flex items-end justify-end gap-x-6">
-                                <a href="#" className="text-sm font-semibold leading-6" style={{ color: Colors.red, fontWeight: '900' }}>{lang === 'es' ? 'Ver CV' : lang === 'fr' ? 'Voir CV' : 'See Resume'} <span aria-hidden="true">→</span></a>
+                                <a href="https://online.fliphtml5.com/ngxcx/ollw/#p=1" target='_blank' className="text-sm font-semibold leading-6" style={{ color: Colors.red, fontWeight: '900' }}>{lang === 'es' ? 'Ver CV' : lang === 'fr' ? 'Voir CV' : 'See Resume'} <span aria-hidden="true">→</span></a>
                             </div>
                         </div>
                     </div>

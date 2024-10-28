@@ -45,7 +45,7 @@ const Academic = ({ lang, theme }: { lang: string; theme: string }) => {
 
     return (
         <>
-            <Box height='auto' width='100%' padding='0vw 3vw' style={{ backgroundColor: theme === 'dark' ? '#101010' : '#efefef' }}>
+            <Box id="academic" height='auto' width='100%' padding='0vw 3vw' style={{ backgroundColor: theme === 'dark' ? '#101010' : '#efefef' }}>
                 <div className='sticky top-0 left-0' style={{ backgroundColor: theme === 'dark' ? '#101010' : '#efefef' }}>
                     <div style={{ height: width > 1000 ? 80 : width > 700 ? 70 : 80 }} />
                     <h1 className='text-center text-xl lg:text-2xl pb-3' style={{ color: theme === 'dark' ? Colors.textDark : Colors.textLight, fontWeight: '600', width: '100%', height: 50, padding: '1vw', zIndex: 0 }}>

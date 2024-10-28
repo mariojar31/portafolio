@@ -96,7 +96,7 @@ const Projects = ({ lang, theme }:{ lang:Lang, theme:string }) => {
     }, [textOpacity]);
 
     return (
-        <Box height='auto' width='100%' padding='0vw 3vw'>
+        <Box id="projects" height='auto' width='100%' padding='0vw 3vw'>
             <div className='sticky top-0 left-0' style={{ backgroundColor: theme === 'dark' ? Colors.bgDark : 'white', zIndex: 1 }}>
                 <div className='flex flex-col justify-end items-center' style={{ height: 65 }}>
                     <p id='textHead2' className="text-lg" style={{ color: theme === 'dark' ? Colors.textDark : Colors.textLight }}>

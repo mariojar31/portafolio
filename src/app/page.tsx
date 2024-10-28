@@ -11,8 +11,10 @@ import Colors from "./colors";
 import styles from './gradient.module.css';
 
 export default function Home() {
+  type Lang = 'es' | 'en' | 'fr';
 
-  const [lang, setLang]=useState('es');
+
+  const [lang, setLang]=useState<Lang>('es');
 
   const [theme, setTheme] = useState('light');
 
@@ -36,7 +38,7 @@ export default function Home() {
   }
 
 
-  function selectLang(lang:string){
+  function selectLang(lang:Lang){
     setLang(lang);
   }
 

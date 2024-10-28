@@ -45,7 +45,7 @@
           },
           "technologies": ["ReactNative","TypeScript","FireBase"],
           "category": "CrossPlatform",
-          "img":"../img/projects/portafolio.jpg",
+          "img":"../img/projects/AplicativoMovil.gif",
           "date": "2024",
           "repoUrl":"#",
           "demoUrl":"#"
@@ -69,10 +69,10 @@
             },
             "technologies": ["React", "Next.js", "Tailwind", "Joy UI"],
             "category": "Web",
-            "img": "../img/projects/portafolio.jpg",
+            "img": "../img/projects/mtcd-landing.png",
             "date": "2024",
-            "repoUrl":"#",
-            "demoUrl":"#"
+            "repoUrl":"https://github.com/mariojar31/MTCD-LandingPage",
+            "demoUrl":"https://webmitiempocondios.vercel.app/"
           },
           {
             "_id": 2,
@@ -93,10 +93,10 @@
             },
             "technologies": ["Node.js", "Express", "PostgreSQL","Pug js"],
             "category": "Backend",
-            "img": "../img/projects/portafolio.jpg",
+            "img": "../img/projects/REST_API.png",
             "date": "2024",
             "repoUrl":"#",
-            "demoUrl":"#"
+            "demoUrl":"https://apitascd.vercel.app/"
           },
           {
             "_id": 3,
@@ -117,10 +117,10 @@
             },
             "technologies": ["React", "Express", "Bootstrap"],
             "category": "Web",
-            "img": "../img/projects/portafolio.jpg",
+            "img": "../img/projects/omnisports.png",
             "date": "2023",
-            "repoUrl":"#",
-            "demoUrl":"#"
+            "repoUrl":"https://github.com/mariojar31/OmniSportsWeb",
+            "demoUrl":"https://omnisports.vercel.app/"
           },
           {
             "_id": 4,
@@ -143,8 +143,8 @@
             "category": "WebApp",
             "img": "../img/projects/CalculadoraInmuebles.jpg",
             "date": "2024",
-            "repoUrl":"#",
-            "demoUrl":"#"
+            "repoUrl":"https://github.com/mariojar31/ML_Calculadora_Valor_inmuebles_BOG",
+            "demoUrl":"https://calculadora-inmuebles.vercel.app/"
           },
           {
             "_id": 5,
@@ -191,8 +191,8 @@
             "category": "WebDevelopment",
             "img": "../img/projects/ahorcado.jpg",
             "date": "2022",
-            "repoUrl":"#",
-            "demoUrl":"#"
+            "repoUrl":"https://github.com/mariojar31/Challenge2-Ahorcado",
+            "demoUrl":"https://mariojar31.github.io/Challenge2-Ahorcado/"
           },
           {
             "_id": 7,
@@ -215,8 +215,8 @@
             "category": "WebDevelopment",
             "img": "../img/projects/encriptador.png",
             "date": "2022",
-            "repoUrl":"#",
-            "demoUrl":"#"
+            "repoUrl":"https://github.com/mariojar31/Challenge1-Encriptador",
+            "demoUrl":"https://mariojar31.github.io/Challenge1-Encriptador/"
           },
           {
             "_id": 0,
@@ -239,8 +239,8 @@
             "category": "WebDevelopment",
             "img": "../img/projects/portafolio.jpg",
             "date": "2022",
-            "repoUrl":"#",
-            "demoUrl":"#"
+            "repoUrl":"https://github.com/mariojar31/Challenge3-portafolioMA",
+            "demoUrl":"https://mariojar31.github.io/Challenge3-portafolioMA/"
           }
 
 
@@ -262,7 +262,7 @@
           "institution": "Oracle ONE - Alura Latam",
           "date": "2022",
           "skills": ["skillId1", "skillId2"],
-          "img":"../img/formacion/alura.png"
+          "img":"../img/formacion/one_logo.png"
         },
         {
           "_id": 2,

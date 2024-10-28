@@ -19,7 +19,7 @@ export default function Footer({lang, theme}:{lang:String,theme:String}){
 
     return(
         <>
-            <div className="text-center p-3">
+            <div id="contactme" className="text-center p-3">
                 <div className="flex flex-row justify-center items-center">
                     <a className="p-3" style={theme=='dark'?{color:Colors.textDark}:{color:Colors.textLight}} href="">
                         <LinkedIn></LinkedIn>
